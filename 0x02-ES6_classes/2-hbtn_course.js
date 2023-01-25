@@ -11,9 +11,8 @@ export default class HolbertonCourse {
   
     set name(value) {
       if (typeof value !== 'string') {
-        console.log("TypeError: Name must be a string");
-        console.log("");
-    }
+        throw TypeError('Name must be a string');
+      }
       this._name = value;
     }
   
@@ -23,9 +22,8 @@ export default class HolbertonCourse {
   
     set length(value) {
       if (typeof value !== 'number') {
-        console.log("TypeError: Length must be a number");
-        console.log("");
-    }
+        throw TypeError('Length must be a number');
+      }
       this._length = value;
     }
   
