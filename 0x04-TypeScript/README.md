@@ -1,0 +1,1 @@
+# i love types, i really do but i think typscript should work on somethings 
